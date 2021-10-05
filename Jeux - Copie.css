@@ -1,0 +1,310 @@
+body {
+	/*border: 8px ridge #4CAF50;*/
+
+    background-size: 100% 100%;
+	background-image: url("Images/background.jpg");
+	background-repeat : no-repeat;
+	
+	font-family : "palatino linotype", palatino, serif;
+	
+}
+
+section, footer, nav, aside {
+	border: 1px ridge #424242;	
+	margin : 10px;
+	padding : 5px;
+}
+
+aside h1, nav h1 {
+	
+	background-color : #F0AA09;
+	
+	width : 100%;
+	height : 25px;
+	
+	vertical-align : center;
+	text-align : center;
+	font-size : 20px;
+	color : #000000;
+
+	border-radius: 15px;
+}
+
+footer h1 {
+	//display : block;
+	
+	text-align : center;
+	font-size : 20px;
+	color : #000000;
+
+	border-radius: 15px;
+}
+
+.title {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+	border: 8px ridge #FCDAB7;
+	border-radius: 15px;
+	
+	background-color : #FFEAD5;
+	
+	margin : auto;
+	margin-top : 20px;
+	margin-bottom : 50px;
+	padding : 0%;
+	
+	width : 700px;
+	height : 100px;
+}
+
+.title h1 {
+
+																					/*REGLER PROBLEME PROPORTION*/
+	color : #5EBB22;
+	text-align : center;
+	font-size : 60px;
+	text-decoration: underline #F0AA09;
+	
+	display : block;
+		
+}
+
+
+
+
+
+#content {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	
+}
+
+#windowGame{
+	
+	width : 60%;
+	height : 800px;	
+	
+	margin : 50px;
+	
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	flex-wrap: wrap;
+	
+	/*height : 80%;	*/
+	border: 8px ridge #BDC1F7;
+	/*border-radius: 15px;*/
+	
+	overflow : auto;
+}
+
+#windowGame section{
+	display: flex;
+    justify-content: center;
+	
+	width : 200px;
+	height : 150px;
+	/*opacity: 0.5;*/
+	/*border-radius: 15px;*/
+	border-radius: 15px;
+		
+	background-size: 100% 100%;	
+	background-repeat : no-repeat;
+	//background-color : #81BEF7;	
+	
+	border: 7px ridge #FCDAB7;
+}
+
+#windowGame section h1{
+	margin : 0px;
+	padding : 0px;
+	
+	//display : block;
+	background-color : #FFEAD5;
+	
+	width : 100%;
+	height : 20%;
+	
+	vertical-align : center;
+	text-align : center;
+	font-size : 20px;
+	color : #000000;
+
+	
+	border-radius: 15px;
+	border: 5px ridge #FCDAB7;	
+}
+
+
+#jeu1 {	
+	background-image: url("Images/Space_run.png");
+}
+#jeu2 {
+	background-image: url("Images/Doodle_jump.png");	
+}
+#jeu3 {
+	background-image: url("Images/Cupifou.png");	
+}
+#jeu4 {
+	background-image: url("Images/Pong.png");	
+}
+#jeu5 {
+	background-image: url("Images/Jeu de la vie.png");	
+}
+#jeu6 {
+	background-image: url("Images/Cupifou 3D.png");	
+}
+#jeu7 {
+	background-image: url("Images/Plane.png");	
+}
+#jeu8 {
+	background-image: url("Images/Tower defense.png");	
+}
+#jeu9 {
+	background-image: url("Images/Golf it.png");	
+}
+.soon {
+	background-image: url("Images/Soon.jpg");
+}
+
+footer {	
+	border: 8px ridge #E0F03A;
+	bottom : 0 px;
+	background-color : #D7DF01;		
+}
+
+nav {
+	border: 8px ridge #1158D3;
+	background-color : #5858FA;	
+	width : 200px;
+	height : 800px;	
+}
+
+nav li, aside li{
+	padding-bottom : 30px;
+		
+}
+
+nav li a, aside li a{
+	
+	font-size : 30px;
+	color : #fff;
+	
+	text-decoration: none;
+	
+}
+
+nav li a:hover, aside li a:hover {	
+	padding-bottom : 30px;
+	
+	font-size : 30px;
+	color : #fff;
+	
+	text-decoration: underline #F0AA09;	
+}
+
+aside {
+	border: 8px ridge #F44963;
+	background-color : #E8584B;	
+	width : 200px;
+	height : 800px;	
+}
+
+
+
+
+
+
+
+
+
+
+header {	
+	padding : 0px;
+	margin : 10px;	
+	z-index : 1000;
+	
+	position: sticky;
+	position: -webkit-sticky; /* Safari */	
+	
+}
+
+header ul {
+	display: flex;
+	align-items : center;
+	justify-content : flex-start; 
+	
+    align-items: center;
+	
+	list-style: none;
+	
+	background-color: #B1B5E7;
+	border: 8px ridge #BDC1F7;
+
+	padding : 0px; 
+}
+
+header a {	
+	color: #070E73;
+	text-align: center;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-size: 40px;
+	
+}
+
+header a:hover {
+	color: #070E73;
+	text-align: center;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-size: 40px;	
+	
+	background-color: #ddd;
+	color: black;
+}
+
+header a.active, header a:active{
+	//display: block;
+	color: #070E73;
+	text-align: center;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-size: 40px;	
+
+	background-color: #4CAF50;
+	color: white;
+}
+	
+
+header .sous {
+    display : none;
+    //padding : 20px;    
+    position : absolute;
+    top : 54px;
+
+    border-radius : 15px;
+
+	z-index : 1000;
+	
+	overflow : auto;
+	max-height : 200px;
+}
+
+header .sous a {
+	font-size : 25px;
+}
+
+header > ul > li:hover .sous{
+    display : block;
+    background-color: #B1B5E7;
+	
+	white-space:nowrap;
+}
+
+header > ul > li {
+    position : relative;
+}
